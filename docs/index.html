@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Book Lists | Home</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script type="module" src="./js/scripts.js"></script>
+</head>
+
+<body>
+    <header class="main-header">
+        <h1 class="title"><a href="index.html" style="color: inherit; text-decoration: none;">Book Catalog</a></h1>
+    </header>
+    <h2 class="top-books-title">Top 3 Books by Rating</h2>
+    <div id="card-container">
+        <!-- Books will be loaded here -->
+    </div>
+    <template id="book-card-template">
+        <div class="card">
+            <div class="card-content">
+                <h2></h2> <!-- Title -->
+                <p class="subtitle"></p> 
+                <a href="#" class="book-link">
+                    <img src="" alt="Book Cover">
+                </a>
+                <p class="authors"></p> 
+                <p class="average-rating"></p> 
+            </div>
+        </div>
+    </template>
+
+    <!-- Clickable link for more books -->
+    <div class="more-books-link">
+        <a href="all.html">Are you looking for more books? (Click)</a>
+    </div>
+
+    <h2 class="search-title">Are you looking for other books?</h2>
+    <div id="search-container">
+        <select id="search-type">
+            <option value="title">Title</option>
+            <option value="subtitle">Subtitle</option>
+            <option value="authors">Authors</option>
+            <option value="categories">Categories</option>
+            <option value="isbn13">ISBN-13</option>
+            <option value="isbn10">ISBN-10</option>
+        </select>
+        <input type="text" id="search-input" placeholder="Search for books..." aria-label="Search Books">
+        <button id="search-button" onclick="searchBooks()">Search</button>
+    </div>
+    
+    <div class="footer">
+        <p>This website is Data Catalog Proejct for SEA 2024 by Joohyun Park</p>
+    </div>
+</body>
+
+</html>

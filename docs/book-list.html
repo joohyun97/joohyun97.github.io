@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Book List | Search</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script type="module" src="./js/list.js"></script>
+<body>
+    <header class="main-header">
+        <h1 class="title"><a href="index.html" style="color: inherit; text-decoration: none;">Book Catalog</a></h1>
+    </header>
+    
+    <!-- Placeholder for the search text -->
+    <div id="search-info"></div>
+    
+    <div id="card-container">
+        <!-- Books will be loaded here -->
+    </div>
+    <template id="book-card-template">
+        <div class="card">
+            <div class="card-content">
+                <h2></h2> <!-- Title -->
+                <p class="subtitle"></p>
+                <a href="#" class="book-link">
+                    <img src="" alt="Book Cover">
+                </a>
+                <p class="authors"></p>
+                <p class="average-rating"></p>
+            </div>
+        </div>
+    </template>
+
+    <div class="button-container">
+        <button onclick="window.location.href='index.html';" class="back-home-button">Back to Homepage</button>
+    </div>
+
+    <div class="footer">
+        <p>This website is Data Catalog Proejct for SEA 2024 by Joohyun Park</p>
+    </div>
+</body>
+</html>

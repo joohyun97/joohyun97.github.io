@@ -1,0 +1,18 @@
+{
+  "name": "sea2024",
+  "version": "1.0.0",
+  "description": "This is the instructions, requirements, and starter for stage two of the Snap Engineering Academy application process.",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.9",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0",
+    "sqlite3": "^5.1.7"
+  }
+}

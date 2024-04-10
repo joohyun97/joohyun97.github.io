@@ -1,0 +1,247 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* CONSTANT */
+.main-header {
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.title {
+    margin: 0;
+    font-size: 2.5em;
+    font-family: "Helvetica", sans-serif;
+    font-weight: normal;
+    color: white;
+}
+
+.footer {
+    padding: 10px; 
+    text-align: center; 
+    background-color: #333; 
+    color: white; 
+}
+
+/* index.html */
+.top-books-title {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #333;
+}
+
+#card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; /* Center children horizontally */
+}
+
+.card-content {
+    padding: 20px;
+    font-family: "Verdana", sans-serif;
+    color: #333;
+    text-align: center;
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    width: 100%; /* Use the full width */
+}
+
+.card-content h2 {
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+.card-content .subtitle {
+    font-style: italic;
+    color: #555;
+    font-size: 1em;
+}
+
+.card-content .authors {
+    font-weight: bold;
+    margin: 5px 0;
+    color: #333;
+}
+
+.card-content .average-rating {
+    font-size: 1em;
+    margin: 10px 0;
+    color: #007BFF; /* A blue color to highlight the rating */
+}
+
+/* more books */
+.more-books-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.more-books-link a {
+    font-size: 1.5em;
+    color: #333;
+    text-decoration: none; /* Optional: Removes the underline from the link */
+    font-weight: bold;
+}
+
+.more-books-link a:hover {
+    text-decoration: underline; /* Optional: Adds underline on hover for better user interaction */
+    color: #007bff; /* Optional: Changes color on hover to indicate it's clickable */
+}
+
+/* search box in index.html */
+.search-title {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #333;
+}
+
+#search-container {
+    text-align: center;
+    margin: 20px;
+}
+
+#search-type {
+    height: 34px;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+#search-input {
+    height: 30px;
+    width: calc(50% - 44px);
+    padding: 0 10px;
+}
+
+#search-button {
+    height: 34px;
+    margin-left: 10px;
+}
+
+.search-info { 
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+.no-books-found {
+    color: #d9534f; 
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* book-detail.html */
+.book-detail-flex {
+    display: flex;
+    align-items: flex-start; 
+    margin: 20px auto;
+    max-width: 800px; 
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.book-thumbnail {
+    flex-basis: 30%;
+    text-align: center; 
+}
+
+.book-thumbnail img {
+    max-width: 100%;
+    max-height: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.book-info {
+    flex-basis: 70%; 
+    padding-left: 20px; 
+}
+
+#book-detail {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+#book-detail h2, #book-detail p {
+    margin: 10px 0;
+}
+
+#book-detail img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.book-detail-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.book-detail-header h1 {
+    margin-right: auto;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; 
+}
+
+.back-home-button {
+    padding: 10px 20px; /*H W*/
+    background-color: #007bff;
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin-top: 20px; 
+    
+}
+
+.back-home-button:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+}
+
+/* all.html */
+.all-books-title {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #333;
+    text-align: center;
+}
+
+#pagination {
+    margin-top: auto; /* Pushes the pagination to the bottom */
+    padding: 20px 0; 
+    text-align: center; 
+    background-color: #f0f0f0;
+}
