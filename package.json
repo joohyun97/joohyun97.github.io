@@ -4,7 +4,7 @@
   "description": "This is the instructions, requirements, and starter for stage two of the Snap Engineering Academy application process.",
   "main": "scripts.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
